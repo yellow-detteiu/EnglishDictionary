@@ -1,0 +1,42 @@
+:root {
+  --main-color: #A04940;
+  --back-color: #FDDDDA;
+  --sub-color: #223A70;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--main-color);
+  background-color: var(--back-color);
+  position: relative;
+  background-image: url(./images/lib1.jpg);
+  background-blend-mode: hard-light;
+}
+
+header {
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+main {
+  margin-bottom: 30px;
+}
+
+img {
+  width: 40%;
+  position: absolute;
+  right: 50px;
+  mix-blend-mode: multiply;
+}
+
+.result {
+  float: left;
+  font-size: 120%;
+  color: var(--sub-color);
+  z-index: -1;
+}
